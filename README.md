@@ -24,11 +24,15 @@ Hushapp is a lightweight Chrome extension for WhatsApp Web.
 ### From the Chrome Web Store
 *Coming soon.*
 
-### Manual install (developer mode)
-1. Download or clone this repository.
+### Manual install
+
+**[⬇ Download Hushapp (ZIP)](https://github.com/GEB1303/Hushapp/archive/refs/heads/main.zip)**, then follow the step-by-step **[Installation Guide](INSTALL.md)**.
+
+In short:
+1. Download and unzip the file.
 2. Open `chrome://extensions` in Chrome.
 3. Turn on **Developer mode** (top right).
-4. Click **Load unpacked** and select the project folder.
+4. Click **Load unpacked** and select the unzipped `Hushapp-main` folder.
 5. Open or reload [WhatsApp Web](https://web.whatsapp.com).
 
 ## How to use
