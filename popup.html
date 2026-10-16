@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hushapp</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="icons/icon48.png" alt="" width="32" height="32">
+      <div>
+      <h1>Hushapp</h1>
+      <p class="tagline">Your groups, your focus.</p>
+      </div>
+    </div>
+    <label class="switch" title="Turn on / off">
+      <input type="checkbox" id="enabled">
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <section>
+    <label class="label" for="mode">How to show their messages</label>
+    <select id="mode">
+      <option value="blur">Softly blurred (click to view)</option>
+      <option value="hide">Hidden completely</option>
+    </select>
+  </section>
+
+  <section>
+    <label class="label" for="entry">Add to your quiet list</label>
+    <div class="row">
+      <input id="entry" type="text" placeholder="e.g. John Smith or +1 555 123 4567" autocomplete="off">
+      <button id="add">Add</button>
+    </div>
+    <p class="hint">Use the name exactly as it appears in the group, or their phone number.</p>
+  </section>
+
+  <ul id="list"></ul>
+  <p id="empty" class="empty">Your quiet list is empty.</p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
